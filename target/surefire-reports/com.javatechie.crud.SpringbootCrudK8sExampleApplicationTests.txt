@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.javatechie.crud.SpringbootCrudK8sExampleApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.612 s <<< FAILURE! - in com.javatechie.crud.SpringbootCrudK8sExampleApplicationTests
+com.javatechie.crud.SpringbootCrudK8sExampleApplicationTests  Time elapsed: 0.608 s  <<< ERROR!
+java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
+
