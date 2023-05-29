@@ -1,4 +1,4 @@
-# Springboot application deployed on  Minikube Kubernetes cluster integrating MySQL DB to load data and view it using PostMan API calls, Finally visualizing the Kubenetes Dashboard.
+# Springboot application deployed on  Minikube Kubernetes cluster integrating MySQL DB to load data and view it using Postman API calls, Finally visualizing the Kubenetes Dashboard.
 
 Below are the steps documented for the same:
 
