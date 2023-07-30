@@ -14,13 +14,18 @@ yum update -y
 
 
 4. Install the latest Docker Engine packages:
-
+```
 amazon-linux-extras install docker 
+```
+
 OR
+
+```
 yum install docker -y
-
+```
+```
 docker -v
-
+```
 
 5. Start and enable the Docker as a service:
 
