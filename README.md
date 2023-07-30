@@ -63,24 +63,26 @@ curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stabl
 sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 ```
 ```
-/usr/local/bin/kubectl version
+kubectl version
 ```
 
 9.1 Clone the Repo:
-
+```
 cd /opt/
 
 git clone https://github.com/DEVOPS-WITH-WEB-DEV/springboot-k8s.git
-
+```
 
 10. Make the DB Up and Setup the DB:
-
-/usr/local/bin/kubectl create -f db-deployment.yaml
-
-/usr/local/bin/kubectl get pods
-
-/usr/local/bin/kubectl exec -it <POD-NAME> /bin/bash
-
+```
+kubectl create -f db-deployment.yaml
+```
+```
+kubectl get pods
+```
+```
+kubectl exec -it <POD-NAME> /bin/bash
+```
 
 10.1 Login to the DB:
 
