@@ -85,16 +85,16 @@ kubectl exec -it <POD-NAME> /bin/bash
 ```
 
 10.1 Login to the DB:
-
+```
 mysql -u root -p 
-
-Password: root
+```
+`Password: root`
 
 
 10.2 Show DBs:
-
+```
 show databases;
-
+```
 
 11. Install Maven:
 
