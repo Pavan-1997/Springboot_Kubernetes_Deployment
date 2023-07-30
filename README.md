@@ -9,9 +9,9 @@ Below are the steps documented for the same:
 
 
 3. Update the packages and package caches you have installed on your instance:
-
+```
 yum update -y
-
+```
 
 4. Install the latest Docker Engine packages:
 ```
