@@ -140,49 +140,50 @@ kubectl port-forward --address 0.0.0.0 svc/springboot-crud-svc 8080:8080 &
 ```
 
 18. Post a JSON data using Postman:
-
+```
 http://<EC2IP>:8080/orders
-
+```
 Send the below data in Postman using RAW
-
+```
 {
     "name": "Raj",
     "qty": 5,
     "price": 150.0
 }
-
+```
 
 18.1 Check the DB in EC2:
 
-Follow Step 10 to login POD and then DB 
+   Follow Step 10 to login POD and then DB 
 
 
 18.2 Change the DB:
-
+```
 use singamlabs;
-
+```
 
 18.3 Check the tables in the above DB:
-
+```
 show tables;
-
+```
 
 18.4 Check the rows in the table:
-
+```
 select * from orders_tbl;
-
+```
 
 19. For Kubernetes Dashboard:
 
 In First Terminal:
-
-/usr/local/bin/kubectl proxy --address='0.0.0.0' --accept-hosts='^*$'
-
-In Secod Terminal:
-
-/usr/local/bin/minikube dashboard
-
+```
+kubectl proxy --address='0.0.0.0' --accept-hosts='^*$'
+```
+In Second Terminal:
+```
+minikube dashboard
+```
 
 20. Hit the below URL to view the dashboard:
-
+```
 http://<EC2IP>:8001/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/#/pod?namespace=default
+```
