@@ -105,15 +105,15 @@ mvn -version
 ```
 
 12. Create the docker image: 
-
+```
 docker build -t pavanraj97/springboot-crud-k8s:1.0 .
-
+```
 
 13. Do a docker login:
-
+```
 docker login
-
-Give dockerhub username and password
+```
+`Give dockerhub username and password`
 
 13.1 Push the docker image
 
