@@ -97,11 +97,12 @@ show databases;
 ```
 
 11. Install Maven:
-
+```
 yum install maven -y	
-
+```
+```
 mvn -version
-
+```
 
 12. Create the docker image: 
 
