@@ -127,16 +127,16 @@ kubectl  apply -f app-deployment.yaml
  
 15. Check the services:
 ```
-/usr/local/bin/kubectl  get svc
+kubectl  get svc
 ```
 
 16. Check the IP of the Minikube:
 ```
-/usr/local/bin/minikube ip
+minikube ip
 ```
 17. Apply Port Forwarding:
 ```
-/usr/local/bin/kubectl port-forward --address 0.0.0.0 svc/springboot-crud-svc 8080:8080 &
+kubectl port-forward --address 0.0.0.0 svc/springboot-crud-svc 8080:8080 &
 ```
 
 18. Post a JSON data using Postman:
