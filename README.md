@@ -33,14 +33,14 @@ systemctl start docker
 ```
 ```
 systemctl enable docker
-
 ```
 6. Install Conntrack(software for minikube-kubernetes to run) and Git:
-
+```
 yum install conntrack -y
-
+```
+```
 yum install git -y
-
+```
 
 7. Install Minikube-Kubernetes:
 
