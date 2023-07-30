@@ -71,7 +71,8 @@ kubectl version
 ```
 cd /opt/
 
-git clone https://github.com/DEVOPS-WITH-WEB-DEV/springboot-k8s.git
+git clone https://github.com/Pavan-1997/Springboot_Minikube_MySQL_API.git
+
 ```
 
 10. Make the DB Up and Setup the DB:
