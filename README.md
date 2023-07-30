@@ -116,28 +116,28 @@ docker login
 `Give dockerhub username and password`
 
 13.1 Push the docker image
-
+```            
 docker push pavanraj97/springboot-crud-k8s:1.0
-
+```
 
 14. Make the App Up:
-
-/usr/local/bin/kubectl  apply -f app-deployment.yaml
-
-
+```
+kubectl  apply -f app-deployment.yaml
+```
+ 
 15. Check the services:
-
+```
 /usr/local/bin/kubectl  get svc
-
+```
 
 16. Check the IP of the Minikube:
-
+```
 /usr/local/bin/minikube ip
-
+```
 17. Apply Port Forwarding:
-
+```
 /usr/local/bin/kubectl port-forward --address 0.0.0.0 svc/springboot-crud-svc 8080:8080 &
-
+```
 
 18. Post a JSON data using Postman:
 
