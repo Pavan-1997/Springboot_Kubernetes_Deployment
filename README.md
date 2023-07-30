@@ -28,12 +28,13 @@ docker -v
 ```
 
 5. Start and enable the Docker as a service:
-
+```
 systemctl start docker 
-
+```
+```
 systemctl enable docker
 
-
+```
 6. Install Conntrack(software for minikube-kubernetes to run) and Git:
 
 yum install conntrack -y
